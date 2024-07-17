@@ -1,0 +1,19 @@
+{
+  "auth": [
+    {
+      "email": "Aho@gmail.com",
+      "password": "123",
+      "id": "dc63"
+    },
+    {
+      "id": "8d74",
+      "email": "Ullas@gmail.com",
+      "password": "456"
+    },
+    {
+      "id": "0e54",
+      "email": "Om@gmail.com",
+      "password": "999"
+    }
+  ]
+}

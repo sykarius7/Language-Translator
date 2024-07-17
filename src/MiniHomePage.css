@@ -1,0 +1,103 @@
+/* MiniHomePage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://f5b623aa.rocketcdn.me/wp-content/uploads/2020/12/Blog_Exploring-Natural-Language-Processing-in-Translation.jpg'); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    
+}
+
+.curved-text {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 50px; /* Adjust the border-radius for desired curve */
+    transform: skew(-10deg); /* Skew transformation for a curved effect */
+    font-size: 20px; /* Example font size */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Changed to default system font */
+    font-size: 15px; /* Example font size */
+}
+
+.card-title {
+    font-size: 20px; /* Example font size */
+    color: #333;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px; /* Example font size */
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px; /* Example font size */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px; /* Example font size */
+}
+
+.form-control {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px; /* Example font size */
+}
+
+.text-center.mb-5 {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 10px; /* Add padding if needed */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+textarea.form-control {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px; /* Example font size */
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.custom-width {
+    width: 90%; /* Set the desired width */
+    max-width: 1400px; /* Set a larger maximum width */
+    margin: 0 auto; /* Center the container */
+}
+
+.widthSetter{
+    width: 700px;
+    height: 90vh;
+}
+
+#teamName{
+    font-size: 30px;
+}
+.exit{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: red;
+    font-size: 15px;
+    padding: 10px 20px;
+}
